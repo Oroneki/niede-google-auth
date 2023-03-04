@@ -1,5 +1,8 @@
 {
   "version": "0.2.4",
+  "repository": {
+    "url": "https://github.com/Oroneki/niede-google-auth"
+  },
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
