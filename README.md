@@ -23,7 +23,7 @@ const { NiedeGoogleAuth, google } = require("@labti/niede-google-auth");
 // importação (ESModules)
 import { NiedeGoogleAuth, google } from "@labti/niede-google-auth";
 
-// caso o arquivo de credenciais esteja salo na raiz do projeto
+// caso o arquivo de credenciais esteja salvo na raiz do projeto
 // basta instanciar a classe NiedeGoogleAuth sem argumentos
 const niedeAuth = new NiedeGoogleAuth()
 
@@ -40,7 +40,7 @@ const main = async () => {
     }).spreadsheets.values.batchGet({
         // parâmetros aqui...
     });
-    console.log(sheetVals.)
+    console.log(sheetVals.data)
 }
 
 main();
